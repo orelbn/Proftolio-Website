@@ -355,3 +355,69 @@ footer [class*="fa-"] {
         margin-right: auto;
     }
 }
+
+
+/* resume section */
+
+#resume {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#resume h1 {
+    text-align: center;
+    color: #111010;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+#resume ul {
+    list-style-type: none;
+    line-height: 1.5rem;
+    padding: 0.8rem;
+    margin: 0 0 1rem 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    gap: 1rem;
+    font-size: 1rem;
+}
+#resume-techincal-skills {
+    margin: 1rem 0;
+}
+
+#resume-education {
+    margin: 1rem 0;
+}
+
+#resume-education li {
+    min-width: 100%;
+}
+#resume-projects {
+    margin: 1rem 0;
+}
+
+.resume-experience h2 {
+    margin-bottom: 1rem;
+
+}
+.resume-experience h4 {
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+.resume-experience h5 {
+    margin: 0;
+    padding: 0.25rem 0;
+}
+
+.resume-experience ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #111010; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1rem; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
