@@ -1,3 +1,7 @@
+import LinkedinIcon from "../icons/linkedin.svg";
+import GitHubIcon from "../icons/github.svg";
+import EnvelopeIcon from "../icons/envelope.svg";
+
 const Footer = () => {
   return (
     <footer>
@@ -8,19 +12,31 @@ const Footer = () => {
             href="https://linkedin.com/in/orel-ben-neriah-401590216"
             target="_blank"
           >
-            <span className="fab fa-linkedin" aria-hidden="true"></span>
+            <img
+              className="filter-firebrick footer--icons"
+              src={LinkedinIcon}
+              aria-hidden="true"
+            />
             <span className="sr-only">LinkedIn</span>
           </a>
         </li>
         <li>
           <a href="https://github.com/orelbn" target="_blank">
-            <span className="fab fa-github-square" aria-hidden="true"></span>
+            <img
+              className="filter-firebrick footer--icons"
+              src={GitHubIcon}
+              aria-hidden="true"
+            />
             <span className="sr-only">Github</span>
           </a>
         </li>
         <li>
           <a href="mailto:ContactOrelbn@gmail.com" target="_blank">
-            <span className="fas fa-envelope" aria-hidden="true"></span>
+            <img
+              className="filter-firebrick footer--icons"
+              src={EnvelopeIcon}
+              aria-hidden="true"
+            />
             <span className="sr-only">Email</span>
           </a>
         </li>

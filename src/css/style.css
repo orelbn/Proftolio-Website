@@ -201,10 +201,14 @@ footer ul {
     font-size: 3rem;
 }
 
-footer [class*="fa-"] {
-    color: firebrick;
+.footer--icons {
+    width: 3rem;
+    height: 3rem;
 }
 
+a:hover .footer--icons {
+    filter: invert(97%) sepia(19%) saturate(7327%) hue-rotate(314deg) brightness(118%) contrast(110%);
+}
 
 /* projects section */
 #projects {
@@ -373,4 +377,30 @@ footer [class*="fa-"] {
         text-align: left;
         margin-right: auto;
     }
+}
+
+.sr-only {
+	border: 0 !important;
+	clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+	-webkit-clip-path: inset(50%) !important;
+		clip-path: inset(50%) !important;  /* 2 */
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	white-space: nowrap !important;            /* 3 */
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:active {
+	clip: auto !important;
+	-webkit-clip-path: none !important;
+		clip-path: none !important;
+	height: auto !important;
+	margin: auto !important;
+	overflow: visible !important;
+	width: auto !important;
+	white-space: normal !important;
 }
