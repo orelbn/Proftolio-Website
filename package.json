@@ -1,0 +1,34 @@
+{
+  "name": "basic-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orelbn/Basic-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orelbn/Basic-Website/issues"
+  },
+  "homepage": "https://github.com/orelbn/Basic-Website#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
