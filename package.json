@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "",
   "scripts": {
-    "clear-build-cache": "rm -rf .cache/ dist/",
+    "clear-build-cache": "rm -rf .parcel-cache/ dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
@@ -28,6 +28,7 @@
     "prettier": "^2.6.2"
   },
   "dependencies": {
+    "cross-env": "^7.0.3",
     "firebase": "^9.8.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
