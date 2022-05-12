@@ -11,11 +11,11 @@
 100C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\htmlparser2\lib\FeedHandler.js132968475372360829 0
 94C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\node-addon-api\nothing.c132968475370830480 0
 117C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\@jridgewell\trace-mapping\dist\types\types.d.ts132968475379322403 0
-69C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\package.json132967918716301062 0
+69C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\package.json132968509940485037 0
 92C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\css-tree\lib\tokenizer132968475389514697 1
 84C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\@parcel\plugin132968475374121223 1
 116C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\@swc\helpers\lib\_class_private_method_init.js132968475381292842 0
-67C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\.gitignore132958186639506486 0
+67C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\.gitignore132968499158497334 0
 110C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\@parcel\codeframe\test\codeframe.test.js132968475381572905 0
 116C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\@parcel\core\lib\requests\ValidationRequest.js132968475390664948 0
 111C:\Users\NashNash\Desktop\Basic-Website-V2\Basic-Website\node_modules\caniuse-lite\data\features\flexbox-gap.js132968475394325782 0
