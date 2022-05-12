@@ -3,10 +3,11 @@
   "version": "1.0.1",
   "description": "",
   "scripts": {
+    "clear-build-cache": "rm -rf .cache/ dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "cross-env NODE_ENV=production parcel build ./src/index.html --public-url ./"
   },
   "repository": {
     "type": "git",
