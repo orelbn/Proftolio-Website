@@ -31,7 +31,7 @@ const Projects = () => {
           The score was calculated based on observing an individual's angular distance from 
           three points and comparing that angle with our demo. 
           The project won first place in the hackathon!"
-          link="https://github.com/weikequ/speechscript"
+          link="https://github.com/orelbn/yogavision"
           technologies={projectYogaVision}
           img={YogaVisionImg}
           imgAlt="Screenshot of YogaVision Project."
@@ -46,7 +46,7 @@ const Projects = () => {
           by combing a speech-recognition API, With a Code Generating API.
           This project was challenging as I am relatively new to React and
           Web design. Overall it was a fantastic learning experience!"
-          link="https://github.com/weikequ/speechscript"
+          link="https://github.com/orelbn/speechscript"
           technologies={projectTechSpeechScript}
           img={SpeechScriptImg}
           imgAlt="Screenshot of speechScript Project."
