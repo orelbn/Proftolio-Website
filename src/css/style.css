@@ -433,6 +433,7 @@ a:hover .footer--icons {
     background: transparent;
     padding: 0.6rem 0.6rem 0rem 0.6rem;
     width: 100%;
+    text-align: left;
     font-size: 2rem;
     font-family: var(--mono);
     color: var(--black);
