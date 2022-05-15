@@ -1,5 +1,5 @@
 import Accordion from "./Accordion";
-import TechincalSkillsContent from "./ResumeContent/TechincalSkillsContent";
+import TechnicalSkillsContent from "./ResumeContent/TechnicalSkillsContent";
 import ProjectsContent from "./ResumeContent/ProjectsContent";
 import ProfessionalExperienceContent from "./ResumeContent/ProfessionalExperienceContent";
 import EducationContent from "./ResumeContent/EducationContent";
@@ -13,10 +13,10 @@ const ResumePage = () => {
       <div className="section-dkcyan">
         <section id="resume">
           <h1> Resume </h1>
-          <div>
+          <div className="AccordionContainer">
             <Accordion
-              header="Techincal Skills"
-              content={<TechincalSkillsContent />}
+              header="Technical Skills"
+              content={<TechnicalSkillsContent />}
             />
             <Accordion header="Projects" content={<ProjectsContent />} />
             <Accordion
