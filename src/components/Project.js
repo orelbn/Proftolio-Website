@@ -8,7 +8,6 @@ const Project = ({
   img,
   imgAlt,
 }) => {
-  technologies.map((tech) => console.log(tech));
   return (
     <article className={type}>
       <div className="text">
