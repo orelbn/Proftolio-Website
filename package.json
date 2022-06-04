@@ -25,7 +25,8 @@
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "parcel": "^2.5.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "cross-env": "^7.0.3",
