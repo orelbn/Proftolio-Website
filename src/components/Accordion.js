@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Accordion = ({ header, content }) => {
   const [accordionClass, setAccordionClass] = useState("accordion--collapse");
@@ -16,6 +16,21 @@ const Accordion = ({ header, content }) => {
       setAccordionClass("accordion--collapse");
     }
   };
+
+  useEffect(() => {
+    document.querySelectorAll(`div.${accordionClass}`).forEach((accordion) => {
+      const transationTime =
+        accordion.scrollHeight > 300
+          ? accordion.scrollHeight * 2
+          : accordion.scrollHeight * 3;
+      accordion.style.transition = `max-height ${transationTime}ms ease`;
+      if (accordionClass === "accordion--open") {
+        accordion.style.maxHeight = accordion.scrollHeight + "px";
+      } else {
+        accordion.style.maxHeight = "0px";
+      }
+    });
+  }, [accordionClass]);
 
   return (
     <div className="accordion">
