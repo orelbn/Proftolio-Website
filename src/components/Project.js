@@ -1,15 +1,8 @@
-const Project = ({
-  type,
-  identifier,
-  title,
-  description,
-  link,
-  technologies,
-  img,
-  imgAlt,
-}) => {
+const Project = ({ project, image }) => {
+  const { layout, identifier, title, description, link, technologies, imgAlt } =
+    project;
   return (
-    <article className={type}>
+    <article className={layout}>
       <div className="text">
         <h4> {identifier} </h4>
         <h3> {title} </h3>
@@ -27,7 +20,7 @@ const Project = ({
           ))}
         </ul>
       </div>
-      <img src={img} alt={imgAlt} />
+      <img src={image} alt={imgAlt} />
     </article>
   );
 };

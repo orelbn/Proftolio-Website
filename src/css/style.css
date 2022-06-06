@@ -355,6 +355,15 @@ a:hover .footer--icons {
     margin-bottom: 1rem;
 }
 
+#resume ul {
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+}
+
+#resume li {
+    padding-right: 0.7rem;
+}
+
 .resume--subheader {
     display: flex;
     justify-content: space-between;
@@ -365,6 +374,7 @@ a:hover .footer--icons {
 .resume--subheader p{
     margin: 0;
 }
+
 
 @media (min-width: 550px) {
     #about img {
@@ -389,6 +399,7 @@ a:hover .footer--icons {
         text-align: left;
         margin-right: auto;
     }
+
 }
 
 .sr-only {
@@ -419,7 +430,13 @@ a:hover .footer--icons {
 
 .accordion {
     margin: 0 auto;
-    width : 97%
+    width : 90%;
+}
+
+@media (min-width: 850px) {
+    .accordion {
+        width: 97%;
+    }
 }
 
 .accordion--item {
@@ -454,12 +471,9 @@ a:hover .footer--icons {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
-.accordion--header.open {
-    font-weight: bold;
-}
 
 .accordion--header.open::after {
     transform: rotate(-180deg);
@@ -468,20 +482,14 @@ a:hover .footer--icons {
 .accordion--content {
     color: var(--black);
     font-size: 1rem;
-    line-height: 2;
+    line-height: 1.75;
+    padding-bottom: 0.5rem;
 }
 
 .accordion--collapse {
-    display: none;
-    height: 0;
+    overflow: hidden;
 }
 
 .accordion--open {
-    display: block;
-}
-
-.accordion--collapsing {
-    height: 0;
     overflow: hidden;
-    transition: height 5s;
 }

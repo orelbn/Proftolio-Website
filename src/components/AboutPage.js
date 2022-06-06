@@ -20,7 +20,7 @@ const AboutPage = () => {
                 So far the main coding languages I utilize are C, C++, Java,
                 JavaScript and Python. My interests outside of Computer Science,
                 include hot chocolate, self-growth, yoga, mediation, anime,
-                mixed martial arts, baking and much more.
+                mixed martial arts, baking, cooking and much more.
               </p>
               <h4> Fields of Interests : </h4>
               <ul>

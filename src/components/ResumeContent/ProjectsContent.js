@@ -19,6 +19,22 @@ const ProjectsContent = () => {
 
       <div>
         <ResumeSubheader
+          title="easyWriting "
+          info="(Personal)"
+          date="May 2022"
+        />
+        <ul>
+          <li>
+            Created an application that allows users to send prompts to the
+            OpenAI completion APIs, receive responses, display the responses,
+            and save responses between sessions. Built using React, TypeScript
+            and Tailwind CSS.
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <ResumeSubheader
           title="YogaVision "
           info="(Hackathon – BCS HACKS – 1st place)"
           date="Mar 2022"
@@ -54,21 +70,6 @@ const ProjectsContent = () => {
             the functional components
           </li>
           <li>Implemented the design of the website using HTML and CSS</li>
-        </ul>
-      </div>
-
-      <div>
-        <ResumeSubheader
-          title="navigtar "
-          info="(Hackathon – HackCamp – 3rd place)"
-          date="Nov 2021"
-        />
-        <ul>
-          <li>
-            Created a Google Chrome extension that helps users navigate a
-            website using the arrow keys; figured out how to map a webpage using
-            the focusable items to allow users to navigate through the webpage
-          </li>
         </ul>
       </div>
 
