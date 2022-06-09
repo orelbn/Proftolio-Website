@@ -1,8 +1,8 @@
 import Project from "./Project.js";
 import YogaVisionImg from "../img/yogaVision.svg";
-import SpeechScriptImg from "../img/SpeechScript.svg";
+import SpeechScriptImg from "../img/speechScript.svg";
 import NavigtarImg from "../img/navigatr.svg";
-import CodeBankImg from "../img/CodeBank.svg";
+import CodeBankImg from "../img/codeBank.svg";
 import EasyWritingImg from "../img/easyWriting.svg";
 import {
   EasyWritingProject,
