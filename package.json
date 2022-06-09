@@ -1,5 +1,5 @@
 {
-  "name": "basic-website",
+  "name": "proftolio-website",
   "version": "1.0.1",
   "description": "",
   "scripts": {
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/orelbn/Basic-Website.git"
+    "url": "git+https://github.com/orelbn/Proftolio-Website.git"
   },
   "keywords": [],
   "author": "Orel Ben Neriah",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/orelbn/Basic-Website/issues"
+    "url": "https://github.com/orelbn/Proftolio-Website/issues"
   },
-  "homepage": "https://github.com/orelbn/Basic-Website#readme",
+  "homepage": "https://github.com/orelbn/Proftolio-Website#readme",
   "devDependencies": {
     "@babel/core": "^7.17.10",
     "eslint": "^8.14.0",
