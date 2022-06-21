@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import LinkedinIcon from "../icons/linkedin.svg";
 import GitHubIcon from "../icons/github.svg";
 import SecrectIcon from "../icons/user-secret.svg";
@@ -9,24 +9,24 @@ const NavigationBar = () => {
       <ul>
         <li>
           <h1>
-            <Link to={`/`} className="nav-align-contents">
+            <NavLink to={`/`} className="nav-align-contents">
               <img
                 className="filter-firebrick nav--icon-main"
                 src={SecrectIcon}
                 aria-hidden="true"
               />
               <span> Orel Ben Neriah</span>
-            </Link>
+            </NavLink>
           </h1>
         </li>
         <li>
-          <Link to={{ pathname: "/", hash: "projects" }}>Projects</Link>
+          <NavLink to={{ pathname: "/", hash: "projects" }}>Projects</NavLink>
         </li>
         <li>
-          <Link to={`/about`}>About</Link>
+          <NavLink to={`/about`}>About</NavLink>
         </li>
         <li>
-          <Link to={{ pathname: "/", hash: "contact" }}>Contact</Link>
+          <NavLink to={{ pathname: "/", hash: "contact" }}>Contact</NavLink>
         </li>
         <li>
           <a
@@ -52,9 +52,9 @@ const NavigationBar = () => {
           </a>
         </li>
         <li>
-          <Link to={`/resume`} className="button">
+          <NavLink to={`/resume`} className="button">
             Resume
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>
