@@ -21,7 +21,7 @@ const Accordion = ({ header, content }) => {
     document.querySelectorAll(`div.${accordionClass}`).forEach((accordion) => {
       const transationTime =
         accordion.scrollHeight > 300
-          ? accordion.scrollHeight * 2
+          ? accordion.scrollHeight * 1
           : accordion.scrollHeight * 3;
       accordion.style.transition = `max-height ${transationTime}ms ease`;
       if (accordionClass === "accordion--open") {

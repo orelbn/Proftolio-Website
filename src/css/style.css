@@ -52,6 +52,18 @@ img {
     width: 100%;
 }
 
+/* hiding scroll bar*/
+
+.hide-scroll {
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.hide-scroll::-webkit-scrollbar { /* WebKit */
+    display: none;
+}
+
+
 /* background color divs */
 
 .section-sdkgreenblue {
@@ -95,7 +107,7 @@ img {
 /* contact */
 
 #contact {
-    width: 400px;
+    max-width: 400px;
     text-align: center;
     margin: 0 auto;
     padding: 3rem 0;

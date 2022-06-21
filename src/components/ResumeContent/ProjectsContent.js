@@ -10,10 +10,14 @@ const ProjectsContent = () => {
         />
         <ul>
           <li>
-            Created a static portfolio website using HTML, CSS, JavaScript and
-            the React library following basic website layout, implementing a
-            pleasing colour scheme, allowing for simplistic and easy navigation.
+            Showcases different projects and provides details about me.
+            Implemented for both mobile and desktop users.
           </li>
+          <li>
+            Incorporated routing for smoother navigation and implemented
+            animations for improved UX.
+          </li>
+          <li>Built with React, React-Router, HTML, CSS, and JavaScript.</li>
         </ul>
       </div>
 
@@ -25,10 +29,14 @@ const ProjectsContent = () => {
         />
         <ul>
           <li>
-            Created an application that allows users to send prompts to the
-            OpenAI completion APIs, receive responses, display the responses,
-            and save responses between sessions. Built using React, TypeScript
-            and Tailwind CSS.
+            Leveraged OpenAI’s completion API to allow users to submit prompts,
+            to which AI-generated responses will be displayed. A user can choose
+            between 1 of 4 AI engines that generate a response, and the
+            responses are persisted between sessions using DOM storage.
+          </li>
+          <li>
+            Built with React, HTML, Tailwind CSS, TypeScript, and OpenAI’s GPT-3
+            API.
           </li>
         </ul>
       </div>
@@ -41,14 +49,13 @@ const ProjectsContent = () => {
         />
         <ul>
           <li>
-            Utilized MediaPipe's Pose API, a machine learning body tracker, to
+            Utilized MediaPipe’s Pose API, a machine learning body tracker, to
             build a website that features a yoga pose analyzer that compares the
-            user's pose with that of our model and provides a score.
+            user’s pose with our model and provides a score.
           </li>
           <li>
-            The Project was built with four other individuals, utilizing
-            JavaScript, React.js, React Webcam API, Google's MediaPipe API,
-            Material UI, and was deployed using firebase.
+            Built with React, React Webcam, CSS, JavaScript, MaterialUI, and
+            Google’s MediaPipe Pose API
           </li>
         </ul>
       </div>
@@ -61,15 +68,13 @@ const ProjectsContent = () => {
         />
         <ul>
           <li>
-            Worked in a team of 4 to Combine Microsoft Azure's speech-to-text
-            API with OpenAI's codex API to enable a user to generate code by
-            speaking{" "}
+            Combined Microsoft Azure’s speech-to-text API with OpenAI’s codex
+            API to enable a user to generate JavaScript code through speech.
           </li>
           <li>
-            Utilized JavaScript with the REACT framework to layout and implement
-            the functional components
+            Built with React, HTML, SASS, CSS, JavaScript, Microsoft Azure’s
+            speech-to-text API and OpenAI’s codex API.
           </li>
-          <li>Implemented the design of the website using HTML and CSS</li>
         </ul>
       </div>
 
@@ -81,14 +86,14 @@ const ProjectsContent = () => {
         />
         <ul>
           <li>
-            Created a code snippet storage app using Java by applying OOD
-            principles including design patterns
+            Created a code snippet storage application using Java by applying
+            OOD principles including design patterns.
           </li>
-          <li>Designed and implemented a GUI using Java Swing library</li>
           <li>
-            Tested the program using JUnit and debugged and fixed bugs using
-            IntelliJ to create an error-free application{" "}
+            Designed and implemented a GUI using Java Swing library and tested
+            the program using JUnit.
           </li>
+          <li>Built with Java.</li>
         </ul>
       </div>
     </div>

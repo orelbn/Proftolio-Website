@@ -27,8 +27,8 @@ const ProfessionalExperienceContent = () => {
         />
         <ul>
           <li>
-            · Taught martial arts to adults and kids of all ages and skill
-            levels in groups of up to 40 individuals.
+            Taught martial arts to adults and kids of all ages and skill levels
+            in groups of up to 40 individuals.
           </li>
         </ul>
       </div>
