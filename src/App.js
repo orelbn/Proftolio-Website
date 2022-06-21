@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import { StrictMode } from "react";
-import MainPage from "./components/MainPage";
-import AboutPage from "./components/AboutPage";
-import ResumePage from "./components/ResumePage";
+import MainPage from "./pages/MainPage";
+import AboutPage from "./pages/AboutPage";
+import ResumePage from "./pages/ResumePage";
 import NavigationBar from "./components/NavigationBar.js";
 import Footer from "./components/Footer.js";
 import Page404 from "./Page404.js";

@@ -9,7 +9,7 @@ const NavigationBar = () => {
       <ul>
         <li>
           <h1>
-            <Link to={`/`}>
+            <Link to={`/`} className="nav-align-contents">
               <img
                 className="filter-firebrick nav--icon-main"
                 src={SecrectIcon}

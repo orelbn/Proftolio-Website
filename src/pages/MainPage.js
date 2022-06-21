@@ -1,6 +1,6 @@
-import Intro from "./Intro.js";
-import Projects from "./Projects.js";
-import Contact from "./Contact.js";
+import Intro from "../components/Intro.js";
+import Projects from "../components/Projects.js";
+import Contact from "../components/Contact.js";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 

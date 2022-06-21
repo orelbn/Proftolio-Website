@@ -1,8 +1,8 @@
-import Accordion from "./Accordion";
-import TechnicalSkillsContent from "./ResumeContent/TechnicalSkillsContent";
-import ProjectsContent from "./ResumeContent/ProjectsContent";
-import ProfessionalExperienceContent from "./ResumeContent/ProfessionalExperienceContent";
-import EducationContent from "./ResumeContent/EducationContent";
+import Accordion from "../components/Accordion";
+import TechnicalSkillsContent from "../components/ResumeContent/TechnicalSkillsContent";
+import ProjectsContent from "../components/ResumeContent/ProjectsContent";
+import ProfessionalExperienceContent from "../components/ResumeContent/ProfessionalExperienceContent";
+import EducationContent from "../components/ResumeContent/EducationContent";
 
 const ResumePage = () => {
   return (

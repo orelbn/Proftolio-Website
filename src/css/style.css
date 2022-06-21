@@ -159,6 +159,12 @@ nav a:hover {
     color: var(--liyellow);
 }
 
+.nav-align-contents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav a:hover .nav--icons {
     filter: invert(97%) sepia(19%) saturate(7327%) hue-rotate(314deg) brightness(118%) contrast(110%);
 }
@@ -166,12 +172,12 @@ nav a:hover .nav--icons {
 .nav--icon-main {
     width: 2.5rem;
     height: 2.5rem;
-    top: 0.50rem;
-    position: relative;
 }
 .nav--icons {
     width: 1.5rem;
     height: 1.5rem;
+    position: relative;
+    top: 3px
 }
 
 .filter-firebrick {
