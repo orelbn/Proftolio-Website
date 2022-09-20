@@ -17,15 +17,15 @@ const AboutPage = () => {
                 University of British Columbia in the BCS program. I have a
                 bachelors degree in Criminology from Simon Fraser University. I
                 am fairly new to the world of programming and computer science!
-                So far the main coding languages I utilize are C, C++, Java,
+                So far the main coding languages I utilize are TypeScript, C++,
                 JavaScript and Python. My interests outside of Computer Science,
                 include hot chocolate, self-growth, yoga, mediation, anime,
                 mixed martial arts, baking, cooking and much more.
               </p>
               <h4> Fields of Interests : </h4>
               <ul>
-                <li> Cybersecurity</li>
-                <li> Full Stack Development</li>
+                <li> Web Development</li>
+                <li> Cyber Security</li>
               </ul>
             </div>
             <img src={myselfImg} alt="Image of Orel" />
