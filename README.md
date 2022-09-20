@@ -2,4 +2,4 @@
 
 This is my proftolio website
 
-It was built using HTML, CSS, JavaScript, and React
+It was built using React, React-Router, Javascript, and CSS
