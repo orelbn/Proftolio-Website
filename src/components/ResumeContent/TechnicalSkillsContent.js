@@ -4,12 +4,12 @@ const TechincalSkillsContent = () => {
     <div>
       <ResumeSubheader
         title="Languages: "
-        info="C/C++, Java, JavaScript, Python, SQL and TypeScript."
+        info="TypeScript/JavaScript, C++, Python, Java"
         date=""
       />
       <ResumeSubheader
-        title="Tools/Environments/Frameworks: "
-        info="HTML5, CSS, React, Git/GitHub, Linux, and Windows."
+        title="Tools/Frameworks: "
+        info="CSS, HTML5, Git/GitHub, GraphQL, PostgreSQL, React, React Native"
         date=""
       />
     </div>

@@ -5,30 +5,24 @@ const ProfessionalExperienceContent = () => {
     <div>
       <div>
         <ResumeSubheader
-          title="Security Officer, "
-          info="Paladin Security, UBC Hospital, Vancouver"
-          date="Aug 2018 – Aug 2020"
+          title="Web Developer Co-op "
+          info="Invoke Co., Vancouver"
+          date="Sep 2022 – Dec 2022"
         />
         <ul>
           <li>
-            Conducted patrols to ensure safety by examining areas for any safety
-            hazards; attended calls to assist with safety concerns in a wide
-            range of situations; wrote detailed reports to provide an accurate
-            record of events
+            Developed, tested, and deployed new features for “Incrowd,” a
+            live-streaming platform that leverages mobile cameras for streaming.
+            The platform allows multiple synchronized perspectives of a live
+            event and stores recordings for future playback.
           </li>
-        </ul>
-      </div>
-
-      <div>
-        <ResumeSubheader
-          title="Assistant Instructor, "
-          info="FKPMMA, Vancouver"
-          date="Jul 2012 – Apr 2018"
-        />
-        <ul>
           <li>
-            Taught martial arts to adults and kids of all ages and skill levels
-            in groups of up to 40 individuals.
+            Enabled users to select an audio source from the perspectives
+            available, independent of the video source.
+          </li>
+          <li>
+            Refactored the existing code base to improve the architecture and
+            code consistency.
           </li>
         </ul>
       </div>

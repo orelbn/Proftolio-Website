@@ -18,11 +18,11 @@ const ResumePage = () => {
               header="Technical Skills"
               content={<TechnicalSkillsContent />}
             />
-            <Accordion header="Projects" content={<ProjectsContent />} />
             <Accordion
               header="Professional Experience"
               content={<ProfessionalExperienceContent />}
             />
+            <Accordion header="Projects" content={<ProjectsContent />} />
             <Accordion header="Education" content={<EducationContent />} />
           </div>
         </section>
