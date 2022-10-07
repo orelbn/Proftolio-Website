@@ -17,7 +17,9 @@ const ProjectsContent = () => {
             Incorporated routing for smoother navigation and implemented
             animations for improved UX.
           </li>
-          <li>Built with React, React-Router, HTML, CSS, and JavaScript.</li>
+          <li>
+            <em>React, React-Router, HTML, CSS, and JavaScript.</em>
+          </li>
         </ul>
       </div>
 
@@ -35,8 +37,9 @@ const ProjectsContent = () => {
             responses are persisted between sessions using DOM storage.
           </li>
           <li>
-            Built with React, HTML, Tailwind CSS, TypeScript, and OpenAI’s GPT-3
-            API.
+            <em>
+              React, HTML, Tailwind CSS, TypeScript, and OpenAI’s GPT-3 API.
+            </em>
           </li>
         </ul>
       </div>
@@ -54,8 +57,10 @@ const ProjectsContent = () => {
             user’s pose with our model and provides a score.
           </li>
           <li>
-            Built with React, React Webcam, CSS, JavaScript, MaterialUI, and
-            Google’s MediaPipe Pose API
+            <em>
+              React, React Webcam, CSS, JavaScript, MaterialUI, and Google’s
+              MediaPipe Pose API
+            </em>
           </li>
         </ul>
       </div>
@@ -72,8 +77,10 @@ const ProjectsContent = () => {
             API to enable a user to generate JavaScript code through speech.
           </li>
           <li>
-            Built with React, HTML, SASS, CSS, JavaScript, Microsoft Azure’s
-            speech-to-text API and OpenAI’s codex API.
+            <em>
+              React, HTML, SASS, CSS, JavaScript, Microsoft Azure’s
+              speech-to-text API and OpenAI’s codex API.
+            </em>
           </li>
         </ul>
       </div>
@@ -93,7 +100,9 @@ const ProjectsContent = () => {
             Designed and implemented a GUI using Java Swing library and tested
             the program using JUnit.
           </li>
-          <li>Built with Java.</li>
+          <li>
+            <em>Java.</em>
+          </li>
         </ul>
       </div>
     </div>

@@ -24,6 +24,12 @@ const ProfessionalExperienceContent = () => {
             Refactored the existing code base to improve the architecture and
             code consistency.
           </li>
+          <li>
+            <em>
+              TypeScript, React, React Native, GraphQL, AWS API Gateway,
+              Appsync, DynamoDB and Lambda
+            </em>
+          </li>
         </ul>
       </div>
     </div>
