@@ -52,7 +52,7 @@ const ProjectsContent = () => {
         />
         <ul>
           <li>
-            Utilized MediaPipe’s Pose API, a machine learning body tracker, to
+            Utilized MediaPipe’s Pose API, a machine-learning body tracker, to
             build a website that features a yoga pose analyzer that compares the
             user’s pose with our model and provides a score.
           </li>

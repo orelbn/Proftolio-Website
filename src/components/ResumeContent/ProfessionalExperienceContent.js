@@ -21,6 +21,10 @@ const ProfessionalExperienceContent = () => {
             available, independent of the video source.
           </li>
           <li>
+            Wrote automation scripts for interacting with a DynamoDB database
+            and creating new events.
+          </li>
+          <li>
             Refactored the existing code base to improve the architecture and
             code consistency.
           </li>
