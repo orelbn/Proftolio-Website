@@ -1,11 +1,11 @@
 const BCRegistries = {
   title: "Application Developer Co-op,",
   info: "Service BC (BC Registries), Vancouver",
-  date: "Sep 2022 – Dec 2022",
+  date: "May 2023 – Aug 2023",
   link: "https://github.com/bcgov/ppr",
   bulletPoints: [
-    "Highly improved the quality of the personal property registry and manufactured home registry through completing multiple feature releases, bug fixes, and code readability and reusability improvements.",
-    "Leveraged previous front-end experience to exceeded expectations with 50+ pull requests, resulting in 8000+ lines of code added and 5000+ lines of code deleted in 4 months.",
+    "Improved the quality of the personal property registry and manufactured home registry by completing multiple feature releases, bug fixes, and code readability and reusability enhancements.",
+    "Leveraged previous front-end experience to exceed expectations with 50+ pull requests, resulting in 8000+ lines of code added and 5000+ lines of code deleted in 4 months.",
     "Demonstrated strong teamwork skills, by being an active participant in meetings, helping address production issues, conducting multiple stakeholders’ demos, participating in discussion towards improving code quality and developer experience, and commutating with other internal and external teams.",
   ],
   technologies: "TypeScript, Vue, Jest",
