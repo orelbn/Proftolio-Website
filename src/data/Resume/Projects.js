@@ -1,3 +1,17 @@
+const AWSBookingSystem = {
+  title: "AWS Room Booking System",
+  info: "(AWS Course Sponsored Project)",
+  date: "Jan 2024 - Apr 2024",
+  bulletPoints: [
+    `A Room Booking System, that books and recommends rooms based on a users requirements.`,
+    `Technical Lead of a team of 8 individuals and worked on all parts of the project (Frontend, Backend, and Infrastructure).`,
+    `Implemented a portable infrastructure using AWS CDK.`,
+    `Built the manual override workflow for the booking system.`,
+  ],
+  technologies:
+    "AWS CDK, AWS Cognito, AWS APIGateway(REST), AWS Lambda, AWS RDS, AWS VPC, TypeScript, React, and MySQL",
+};
+
 const PortfolioWebsite = {
   title: "Portfolio Website",
   info: "(Personal)",
@@ -62,6 +76,7 @@ export const CodeBank = {
 };
 
 export const projects = [
+  AWSBookingSystem,
   PortfolioWebsite,
   EasyWriting,
   YogaVision,
