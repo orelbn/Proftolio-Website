@@ -9,9 +9,11 @@ const Project = ({ project, image }) => {
         <p className="blackbox">
           {description}
           <br />
-          <a href={link} target="_blank">
-            {title}
-          </a>
+          {link && (
+            <a href={link} target="_blank">
+              {title}
+            </a>
+          )}
         </p>
         <h4> Technologies used include: </h4>
         <ul>

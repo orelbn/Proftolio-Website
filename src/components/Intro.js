@@ -2,18 +2,18 @@ const Intro = () => {
   return (
     <section id="intro">
       <p className="name">
-        Hi, my name is <span>Orel Ben Neriah.</span>
+        Hi, my name is <span>Orel.</span>
       </p>
       <h2> I am a software developer</h2>
 
       <p>
-        I'm a computer science student with an interest in cybersecurity and
-        web-development.
+        I am about to graduate UBC and I am a CTO of a startup called{" "}
+        <a href="https://www.get-stride.com/" target="_blank">
+          <b>Stride</b>
+        </a>
       </p>
-
       <p>
-        I will be completing my bachelor's degree in computer science at the
-        University of British Columbia in May of 2024.
+        We are working on bringing modern technologies to structural engineering
       </p>
     </section>
   );

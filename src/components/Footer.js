@@ -5,7 +5,7 @@ import EnvelopeIcon from "../icons/envelope.svg";
 const Footer = () => {
   return (
     <footer>
-      <h2> Orel Ben Neriah &middot; Student </h2>
+      <h2> Orel Ben Neriah &middot; CTO </h2>
       <ul>
         <li>
           <a
@@ -42,7 +42,7 @@ const Footer = () => {
         </li>
       </ul>
       <p>
-        <small>&copy; 2022 Orel Ben Neriah. All rights reserved.</small>
+        <small>&copy; 2024 Orel Ben Neriah. All rights reserved.</small>
       </p>
     </footer>
   );
