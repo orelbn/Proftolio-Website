@@ -2,6 +2,7 @@ const AWSBookingSystem = {
   title: "AWS Room Booking System",
   info: "(AWS Course Sponsored Project)",
   date: "Jan 2024 - Apr 2024",
+  link: "https://www.youtube.com/watch?v=fr-xWYn6R74",
   bulletPoints: [
     `A Room Booking System, that books and recommends rooms based on a users requirements.`,
     `Technical Lead of a team of 8 individuals and worked on all parts of the project (Frontend, Backend, and Infrastructure).`,

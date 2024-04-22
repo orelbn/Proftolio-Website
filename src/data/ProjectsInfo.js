@@ -1,13 +1,14 @@
 export const AWSBookingProject = {
   layout: "",
   identifier: "Latest Project",
-  title: "AWS Meeting Booking System",
+  title: "Meeting Booking System",
   description: `This project was part of a course in my university and was sponsored by Amazon Web Services.
   I lead the technical development of the project. The team was of 8 individuals including myself.
   I worked on all parts of the project (Frontend, Backend, and Infrastructure). 
   The project is a meeting booking system that allows users to find an available meeting rooms that meets the users requirements. 
   There was also an administration modules that allowed to add users, buildings, and rooms.
  `,
+  link: "https://www.youtube.com/watch?v=fr-xWYn6R74",
   technologies: [
     "AWS CDK",
     "TypeScript",
