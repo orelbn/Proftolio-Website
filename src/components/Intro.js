@@ -7,14 +7,12 @@ const Intro = () => {
       <h2> I am a software developer</h2>
 
       <p>
-        I am about to graduate UBC and I am a CTO of a startup called{" "}
+        Currently working at{" "}
         <a href="https://www.get-stride.com/" target="_blank">
           <b>Stride</b>
         </a>
       </p>
-      <p>
-        We are working on bringing modern technologies to structural engineering
-      </p>
+      <p>Where we build modern, documentation and calculation software</p>
     </section>
   );
 };

@@ -5,7 +5,7 @@ const EducationContent = () => {
       <ResumeSubheader
         title="Bachelor of Computer Science, "
         info="University of British Columbia"
-        date="Sep 2021 - May 2024"
+        date="2024"
       />
       <ResumeSubheader
         title="Bachelor of Arts "

@@ -7,7 +7,7 @@ const AboutPage = () => {
       <div className="gradient"></div>
       <div className="section-dkcyan">
         <section id="about">
-          <h2> About Orel Ben Neriah </h2>
+          <h2> About Orel </h2>
 
           <article>
             <div className="text">
