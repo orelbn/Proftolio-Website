@@ -26,9 +26,6 @@ const NavigationBar = () => {
           <NavLink to={`/about`}>About</NavLink>
         </li>
         <li>
-          <NavLink to={{ pathname: "/", hash: "contact" }}>Contact</NavLink>
-        </li>
-        <li>
           <a
             href="https://linkedin.com/in/orel-ben-neriah-401590216"
             target="_blank"

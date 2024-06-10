@@ -1,6 +1,5 @@
 import Intro from "../components/Intro.js";
 import Projects from "../components/Projects.js";
-import Contact from "../components/Contact.js";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -21,8 +20,6 @@ const MainPage = () => {
       <Intro />
       <div className="gradient"></div>
       <Projects />
-      <div className="gradient"></div>
-      <Contact />
       <div className="gradient"></div>
     </div>
   );
