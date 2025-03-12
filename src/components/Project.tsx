@@ -1,4 +1,20 @@
-const Project = ({ project, image }) => {
+// Define TypeScript interfaces for props
+interface ProjectData {
+  layout: string;
+  identifier: string;
+  title: string;
+  description: string;
+  link?: string;
+  technologies: string[];
+  imgAlt: string;
+}
+
+interface ProjectProps {
+  project: ProjectData;
+  image: string;
+}
+
+const Project = ({ project, image }: ProjectProps) => {
   const { layout, identifier, title, description, link, technologies, imgAlt } =
     project;
   return (
@@ -10,7 +26,7 @@ const Project = ({ project, image }) => {
           {description}
           <br />
           {link && (
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               {title}
             </a>
           )}

@@ -1,5 +1,7 @@
+import React from "react";
 import ResumeSubheader from "./ResumeSubHeader";
-const EducationContent = () => {
+
+const EducationContent: React.FC = () => {
   return (
     <div>
       <ResumeSubheader

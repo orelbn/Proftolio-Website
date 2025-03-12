@@ -1,8 +1,9 @@
 import Accordion from "../components/Accordion";
-import TechnicalSkillsContent from "../components/ResumeContent/TechnicalSkillsContent";
-import ProjectsContent from "../components/ResumeContent/ProjectsContent";
-import ProfessionalExperienceContent from "../components/ResumeContent/ProfessionalExperienceContent";
 import EducationContent from "../components/ResumeContent/EducationContent";
+import OpenSourceContent from "../components/ResumeContent/OpenSourceContent";
+import ProfessionalExperienceContent from "../components/ResumeContent/ProfessionalExperienceContent";
+import ProjectsContent from "../components/ResumeContent/ProjectsContent";
+import TechnicalSkillsContent from "../components/ResumeContent/TechnicalSkillsContent";
 
 const ResumePage = () => {
   return (
@@ -22,6 +23,7 @@ const ResumePage = () => {
               header="Professional Experience"
               content={<ProfessionalExperienceContent />}
             />
+            <Accordion header="Open Source" content={<OpenSourceContent />} />
             <Accordion header="Projects" content={<ProjectsContent />} />
             <Accordion header="Education" content={<EducationContent />} />
           </div>

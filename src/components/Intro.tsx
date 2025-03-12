@@ -1,4 +1,6 @@
-const Intro = () => {
+import React from "react";
+
+const Intro: React.FC = () => {
   return (
     <section id="intro">
       <p className="name">
@@ -8,7 +10,7 @@ const Intro = () => {
 
       <p>
         Currently working at{" "}
-        <a href="https://www.get-stride.com/" target="_blank">
+        <a href="https://www.get-stride.com/" target="_blank" rel="noreferrer">
           <b>Stride</b>
         </a>
       </p>
