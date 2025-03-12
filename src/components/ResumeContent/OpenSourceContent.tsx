@@ -11,7 +11,6 @@ const OpenSourceContent: React.FC = () => {
           <ResumeSubheader
             title={contribution.title}
             date={contribution.date}
-            info={contribution.info}
             link={contribution.link}
           />
           <ResumeItemBody

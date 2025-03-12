@@ -2,14 +2,14 @@ import React from "react";
 
 interface ResumeSubheaderProps {
   title: string;
-  info: string;
+  info?: string;
   date: string;
   link?: string;
 }
 
 const ResumeSubheader: React.FC<ResumeSubheaderProps> = ({
   title,
-  info,
+  info = "",
   date,
   link,
 }) => {
