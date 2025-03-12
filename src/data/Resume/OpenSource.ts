@@ -12,10 +12,10 @@ export const openSourceContributions: OpenSourceContribution[] = [
     date: "Ongoing",
     link: "https://github.com/josdejong/mathjs",
     bulletPoints: [
-      "Fixed bugs in the library's core functionality",
       "Updated TypeScript definitions to include generics, drastically improving type safety and inference",
       "Enhanced the developer experience for TypeScript users of the library",
+      "Fixed bugs in the library's core functionality",
     ],
-    technologies: ["JavaScript", "TypeScript", "Node.js", "Mathematics"],
+    technologies: ["JavaScript", "TypeScript", "Node.js"],
   },
 ];
