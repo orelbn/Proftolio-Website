@@ -8,20 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          cache: "npm"
-
-      # Key fix: Install dependencies with rebuild
-      - name: Install dependencies
-        run: npm ci --ignore-scripts && npm rebuild
-
-      - name: Build project
-        run: npm run build
-
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      - run: npm ci && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0.9.0
         with:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_OREL_PORTFOLIO_WEBSITE }}"
