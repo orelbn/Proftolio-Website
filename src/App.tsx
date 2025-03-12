@@ -1,14 +1,13 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ReactDOM from "react-dom/client";
-import { StrictMode } from "react";
-import MainPage from "./pages/MainPage";
+import React, { StrictMode } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
+import NavigationBar from "./components/NavigationBar";
+import Page404 from "./Page404";
 import AboutPage from "./pages/AboutPage";
+import MainPage from "./pages/MainPage";
 import ResumePage from "./pages/ResumePage";
-import NavigationBar from "./components/NavigationBar.js";
-import Footer from "./components/Footer.js";
-import Page404 from "./Page404.js";
 
-const App = () => {
+const App: React.FC = () => {
   return (
     <StrictMode>
       <BrowserRouter>
@@ -25,5 +24,4 @@ const App = () => {
   );
 };
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default App;

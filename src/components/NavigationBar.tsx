@@ -1,9 +1,10 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
-import LinkedinIcon from "../icons/linkedin.svg";
 import GitHubIcon from "../icons/github.svg";
+import LinkedinIcon from "../icons/linkedin.svg";
 import SecrectIcon from "../icons/user-secret.svg";
 
-const NavigationBar = () => {
+const NavigationBar: React.FC = () => {
   return (
     <nav>
       <ul>
@@ -29,6 +30,7 @@ const NavigationBar = () => {
           <a
             href="https://linkedin.com/in/orel-ben-neriah-401590216"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="filter-firebrick nav--icons"
@@ -39,7 +41,7 @@ const NavigationBar = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/orelbn" target="_blank">
+          <a href="https://github.com/orelbn" target="_blank" rel="noreferrer">
             <img
               className="filter-firebrick nav--icons"
               src={GitHubIcon}

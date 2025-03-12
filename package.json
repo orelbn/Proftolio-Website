@@ -1,13 +1,13 @@
 {
   "name": "proftolio-website",
-  "version": "1.0.1",
+  "version": "2.0.0",
+  "type": "module",
   "description": "",
   "scripts": {
-    "clear-build-cache": "rm -rf .parcel-cache/ dist/",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html",
-    "build": "cross-env NODE_ENV=production parcel build ./src/index.html --public-url ./"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -21,18 +21,22 @@
   },
   "homepage": "https://github.com/orelbn/Proftolio-Website#readme",
   "devDependencies": {
-    "@babel/core": "^7.22.15",
-    "eslint": "^8.48.0",
-    "eslint-config-prettier": "^9.0.0",
-    "parcel": "^2.12.0",
-    "prettier": "^3.0.3",
-    "process": "^0.11.10"
+    "@eslint/js": "^9.22.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react": "^7.37.4",
+    "firebase": "^11.4.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.1",
+    "vite": "^6.2.1"
   },
   "dependencies": {
-    "cross-env": "^7.0.3",
-    "firebase": "^10.11.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0"
   }
 }

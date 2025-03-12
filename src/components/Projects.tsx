@@ -1,20 +1,21 @@
-import Project from "./Project.js";
-import AWSMeetingBookingImg from "../img/AWSBookingSystem.svg";
-import YogaVisionImg from "../img/yogaVision.svg";
-import SpeechScriptImg from "../img/speechScript.svg";
-import NavigtarImg from "../img/navigatr.svg";
-import CodeBankImg from "../img/CodeBank.svg";
-import EasyWritingImg from "../img/easyWriting.svg";
+import React from "react";
 import {
   AWSBookingProject,
-  EasyWritingProject,
-  YogaVisionProject,
-  SpeechScriptProject,
-  NavigtarProject,
   CodeBankProject,
+  EasyWritingProject,
+  NavigtarProject,
+  SpeechScriptProject,
+  YogaVisionProject,
 } from "../data/ProjectsInfo";
+import AWSMeetingBookingImg from "../img/AWSBookingSystem.svg";
+import CodeBankImg from "../img/CodeBank.svg";
+import EasyWritingImg from "../img/easyWriting.svg";
+import NavigtarImg from "../img/navigatr.svg";
+import SpeechScriptImg from "../img/speechScript.svg";
+import YogaVisionImg from "../img/yogaVision.svg";
+import Project from "./Project";
 
-const Projects = () => {
+const Projects: React.FC = () => {
   return (
     <div className="section-dkcyan">
       <section id={"projects"}>

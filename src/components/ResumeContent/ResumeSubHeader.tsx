@@ -1,9 +1,23 @@
-const ResumeSubheader = ({ title, info, date, link }) => {
+import React from "react";
+
+interface ResumeSubheaderProps {
+  title: string;
+  info?: string;
+  date: string;
+  link?: string;
+}
+
+const ResumeSubheader: React.FC<ResumeSubheaderProps> = ({
+  title,
+  info = "",
+  date,
+  link,
+}) => {
   return (
     <div className="resume--subheader">
       <p>
         {link ? (
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer">
             <strong>{title}</strong> {info}
           </a>
         ) : (

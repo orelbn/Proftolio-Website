@@ -1,7 +1,8 @@
-import LinkedinIcon from "../icons/linkedin.svg";
+import React from "react";
 import GitHubIcon from "../icons/github.svg";
+import LinkedinIcon from "../icons/linkedin.svg";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer>
       <h2> Orel Ben Neriah </h2>
@@ -10,6 +11,7 @@ const Footer = () => {
           <a
             href="https://linkedin.com/in/orel-ben-neriah-401590216"
             target="_blank"
+            rel="noreferrer"
           >
             <img
               className="filter-firebrick footer--icons"
@@ -20,7 +22,7 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/orelbn" target="_blank">
+          <a href="https://github.com/orelbn" target="_blank" rel="noreferrer">
             <img
               className="filter-firebrick footer--icons"
               src={GitHubIcon}

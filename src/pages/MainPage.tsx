@@ -1,13 +1,13 @@
-import Intro from "../components/Intro.js";
-import Projects from "../components/Projects.js";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Intro from "../components/Intro";
+import Projects from "../components/Projects";
 
 const MainPage = () => {
-  let location = useLocation();
+  const location = useLocation();
 
   useEffect(() => {
-    let hash = location.hash;
+    const hash = location.hash;
     if (hash !== "") {
       const id = hash.replace("#", "");
       const elm = document.getElementById(id);
