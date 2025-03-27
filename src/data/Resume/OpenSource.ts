@@ -15,6 +15,7 @@ export const openSourceContributions: OpenSourceContribution[] = [
       "Updated TypeScript definitions to include generics, drastically improving type safety and inference",
       "Enhanced the developer experience for TypeScript users of the library",
       "Fixed bugs in the library's core functionality",
+      "Updated library documentation to improve clarity and usability",
     ],
     technologies: ["JavaScript", "TypeScript", "Node.js"],
   },
